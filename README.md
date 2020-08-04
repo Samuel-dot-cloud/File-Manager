@@ -1,5 +1,5 @@
 # PROJECT NAME. :arrow_forward::high_brightness:
-The project is titled 'File Manager'. For more information check [this]()out
+The project is titled 'File Manager'. For more information check [this](https://medium.com/@successam336/delving-into-electron-file-manager-74be8ade5167?sk=f8ad90e090ef6836f9e09eed9680a85a) out.
 
 
 ## DESCRIPTION OF PROJECT.
@@ -14,13 +14,8 @@ The project is a simple desktop application that demonstrates the concept of CRU
 6. Run the command `npm install`.
 7. Run the command `npm start` to start the app.
 
-      
-### TECHNOLOGIES USED.
-- Node.js.
-- Electron.
-
-
-### KNOWN BUGS.:warning:warning:
+### KNOWN BUGS.:warning::warning:
+----------------------------------------
 
 
 ### CONTACT INFORMATION.
