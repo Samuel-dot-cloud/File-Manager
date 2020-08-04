@@ -1,2 +1,5 @@
-# Folders
+# dependencies
 /node_modules
+
+#Folders
+/packages
