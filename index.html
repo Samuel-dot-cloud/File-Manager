@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>File Manager</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bulma.min.css">
 </head>
 
 <body>
@@ -13,16 +14,16 @@
         <form>
             <div class="form-group">
                 <label>File name</label>
-                <input id="fileName" type="text" class="form-control">
+                <input id="fileName" type="text" class="input is-primary">
             </div>
             <div class="form-group">
                 <label>Contents</label>
-                <textarea id="fileContents" class="form-control" rows="5"></textarea>
+                <textarea id="fileContents" class="textarea is-success" rows="5"></textarea>
             </div>
         </form>
-        <button id="btnCreate" class="btn btn-default">🚧Create</button>
-        <button id="btnRead" class="btn btn-warning">📑Read</button>
-        <button id="btnDelete" class="btn btn-default">🔥Delete</button>
+        <button id="btnCreate" class="button is-primary is-light">🚧Create</button>
+        <button id="btnRead" class="button is-info is-rounded">📑Read</button>
+        <button id="btnDelete" class="button is-danger is-outlined">🔥Delete</button>
     </div>
     <script defer src="main.js"></script>
 </body>
