@@ -6,6 +6,8 @@
         "start": "electron ."
     },
     "devDependencies": {
-        "electron": "^9.1.2"
+        "cross-var": "^1.1.0",
+        "electron": "^9.1.2",
+        "electron-packager": "^15.0.0"
     }
 }
