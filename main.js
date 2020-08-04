@@ -1,5 +1,9 @@
-const fs = require('fs')
-const path = require('path')
+const fs = require('fs');
+const path = require('path');
+const { remote } = require('electron');
+
+
+
 
 btnCreate = document.getElementById('btnCreate')
 btnRead = document.getElementById('btnRead')
@@ -18,9 +22,10 @@ btnCreate.addEventListener('click', function() {
         }
         console.log("The file was created")
 
-    })
+    });
 
-})
+});
+
 btnRead.addEventListener('click', function() {
     let file = path.join(pathName, fileName.value)
     fs.readFile(file, function(err, data) {
@@ -30,9 +35,9 @@ btnRead.addEventListener('click', function() {
         fileContents.value = data
         console.log("The file was read")
 
-    })
+    });
 
-})
+});
 
 btnDelete.addEventListener('click', function() {
     let file = path.join(pathName, fileName.value)
@@ -44,6 +49,6 @@ btnDelete.addEventListener('click', function() {
         fileContents.value = ''
         console.log("The file was deleted!")
 
-    })
+    });
 
-})
+});
