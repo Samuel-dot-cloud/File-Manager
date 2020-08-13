@@ -5,7 +5,7 @@ The project is titled 'File Manager'. For more information check [this](https://
 ## DESCRIPTION OF PROJECT.
 The project is a simple desktop application that demonstrates the concept of CRUD  functionality.:medal_military::medal_military::trophy:
  <p float="centre">
-   <img src="pics/pic.png" width="100" />
+   <img src="pics/pic.png" width="100%" height="100%" />
 </p>
 
 ### PROJECT SETUP INSTRUCTIONS.
